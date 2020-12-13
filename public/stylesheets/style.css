@@ -40,6 +40,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  margin: auto;
 }
 
 .container {
@@ -85,7 +86,6 @@ h2 {
   }
 
   .title {
-    background-size: auto !important;
     background-position: center -1528px !important;
   }
 
@@ -317,7 +317,7 @@ h2.cursor::after {
   background-clip: text;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 .text_section p {

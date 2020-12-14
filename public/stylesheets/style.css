@@ -110,6 +110,7 @@ h2 {
 
   .icon_column a {
     margin: 1rem;
+    color: var(--secondary-color);
   }
 
   .learn-more {

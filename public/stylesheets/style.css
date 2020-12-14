@@ -51,6 +51,11 @@ h2 {
   margin-left: auto;
 }
 
+  h2.cursor::after {
+    height: 2rem;
+    width: .5rem;
+  }
+
 @media (max-width: 768px) {
   #hero {
     background-image: url('../images/Iphone_img.jpg') !important;
@@ -60,7 +65,12 @@ h2 {
   .header_one,
   .header_two {
     color: var(--secondary-color);
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+
+  h2.cursor::after {
+    height:1.5rem;
+    width: .5rem;
   }
 
   #scroll_section .scroll_indicator {

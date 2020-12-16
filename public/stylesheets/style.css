@@ -372,6 +372,7 @@ h2.cursor::after {
   padding: 4rem;
   margin: 0 auto;
   width: max-content;
+  max-width: 1200px;
 }
 
 .card-grid-space {

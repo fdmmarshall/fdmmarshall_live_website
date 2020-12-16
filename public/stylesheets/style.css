@@ -371,7 +371,7 @@ h2.cursor::after {
   grid-gap: 4rem;
   padding: 4rem;
   margin: 0 auto;
-  width: max-content;
+  width: max-content !important;
   width: 1200px;
 }
 
